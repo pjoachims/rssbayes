@@ -1,0 +1,19 @@
+48 ## Run sampler
+49 with gmm:
+50
+# Specify the sampling algorithms to use
+51
+step1 = pm.NUTS(vars=[p, mu, sigma])
+52
+step2 = pm.ElemwiseCategorical(vars=[z])
+53
+54
+# Start the sampler!
+55
+trace = pm.sample(draws=2000,
+56
+nchains=4,
+57
+step=[step1, step2],
+58
+random_seed=seed)
