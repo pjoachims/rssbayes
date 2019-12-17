@@ -1,6 +1,0 @@
-https://docs.pymc.io/api/inference.html
-https://stackoverflow.com/questions/49825216/what-is-a-chain-in-pymc3
-https://en.wikipedia.org/wiki/Test_functions_for_optimization
-
-Praesi:
-    a Pymc intro
